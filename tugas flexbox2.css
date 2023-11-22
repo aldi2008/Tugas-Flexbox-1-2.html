@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: darkgray;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    align-content: center;
+}
+
+header, article, aside, nav, footer{
+    padding: 2rem;
+    text-align: center;
+}
+
+header{
+    background-color: aqua;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
+
+aside{
+    background-color: blanchedalmond;
+    width: 25%;
+    height: 300px;
+    margin-right: 1em;
+}
+
+article{
+    background-color: aquamarine;
+    width: 75%;
+    height: 300px;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
+
+footer{
+    background-color: coral;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
